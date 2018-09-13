@@ -1,0 +1,9 @@
+
+1.第三方库，不要直接使用，需要封装一次再使用，避免过多引入头文件，方便后续更新第三方库。
+封装类放在ThirdTools文件夹。
+2.LKUtils.m用于封装自定义工具类.
+3.LKMediator.m用于封装公共跳转类。
+4.控制器基于LKBaseViewController.h。
+5.模型基于LKBaseModel.h。
+6.sever层基于LKBaseServer.h。
+7.导航栏基于LKNavigationViewController.h。

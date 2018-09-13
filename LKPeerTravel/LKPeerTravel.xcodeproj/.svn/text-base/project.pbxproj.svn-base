@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43AD47DD20B520EA0062540D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AD47DC20B520EA0062540D /* AppDelegate.m */; };
+		43AD47E020B520EA0062540D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AD47DF20B520EA0062540D /* ViewController.m */; };
+		43AD47E320B520EA0062540D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43AD47E120B520EA0062540D /* Main.storyboard */; };
+		43AD47E520B520EA0062540D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43AD47E420B520EA0062540D /* Assets.xcassets */; };
+		43AD47E820B520EA0062540D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43AD47E620B520EA0062540D /* LaunchScreen.storyboard */; };
+		43AD47EB20B520EA0062540D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AD47EA20B520EA0062540D /* main.m */; };
+		43AD47F520B520EA0062540D /* LKPeerTravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AD47F420B520EA0062540D /* LKPeerTravelTests.m */; };
+		43AD480020B520EA0062540D /* LKPeerTravelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AD47FF20B520EA0062540D /* LKPeerTravelUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43AD47F120B520EA0062540D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43AD47D020B520EA0062540D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43AD47D720B520EA0062540D;
+			remoteInfo = LKPeerTravel;
+		};
+		43AD47FC20B520EA0062540D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43AD47D020B520EA0062540D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43AD47D720B520EA0062540D;
+			remoteInfo = LKPeerTravel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43AD47D820B520EA0062540D /* LKPeerTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKPeerTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AD47DB20B520EA0062540D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43AD47DC20B520EA0062540D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43AD47DE20B520EA0062540D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43AD47DF20B520EA0062540D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43AD47E220B520EA0062540D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43AD47E420B520EA0062540D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43AD47E720B520EA0062540D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43AD47E920B520EA0062540D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43AD47EA20B520EA0062540D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43AD47F020B520EA0062540D /* LKPeerTravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKPeerTravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AD47F420B520EA0062540D /* LKPeerTravelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKPeerTravelTests.m; sourceTree = "<group>"; };
+		43AD47F620B520EA0062540D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43AD47FB20B520EA0062540D /* LKPeerTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKPeerTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AD47FF20B520EA0062540D /* LKPeerTravelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKPeerTravelUITests.m; sourceTree = "<group>"; };
+		43AD480120B520EA0062540D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43AD47D520B520EA0062540D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AD47ED20B520EA0062540D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AD47F820B520EA0062540D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43AD47CF20B520EA0062540D = {
+			isa = PBXGroup;
+			children = (
+				43AD47DA20B520EA0062540D /* LKPeerTravel */,
+				43AD47F320B520EA0062540D /* LKPeerTravelTests */,
+				43AD47FE20B520EA0062540D /* LKPeerTravelUITests */,
+				43AD47D920B520EA0062540D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43AD47D920B520EA0062540D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43AD47D820B520EA0062540D /* LKPeerTravel.app */,
+				43AD47F020B520EA0062540D /* LKPeerTravelTests.xctest */,
+				43AD47FB20B520EA0062540D /* LKPeerTravelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43AD47DA20B520EA0062540D /* LKPeerTravel */ = {
+			isa = PBXGroup;
+			children = (
+				43AD47DB20B520EA0062540D /* AppDelegate.h */,
+				43AD47DC20B520EA0062540D /* AppDelegate.m */,
+				43AD47DE20B520EA0062540D /* ViewController.h */,
+				43AD47DF20B520EA0062540D /* ViewController.m */,
+				43AD47E120B520EA0062540D /* Main.storyboard */,
+				43AD47E420B520EA0062540D /* Assets.xcassets */,
+				43AD47E620B520EA0062540D /* LaunchScreen.storyboard */,
+				43AD47E920B520EA0062540D /* Info.plist */,
+				43AD47EA20B520EA0062540D /* main.m */,
+			);
+			path = LKPeerTravel;
+			sourceTree = "<group>";
+		};
+		43AD47F320B520EA0062540D /* LKPeerTravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				43AD47F420B520EA0062540D /* LKPeerTravelTests.m */,
+				43AD47F620B520EA0062540D /* Info.plist */,
+			);
+			path = LKPeerTravelTests;
+			sourceTree = "<group>";
+		};
+		43AD47FE20B520EA0062540D /* LKPeerTravelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43AD47FF20B520EA0062540D /* LKPeerTravelUITests.m */,
+				43AD480120B520EA0062540D /* Info.plist */,
+			);
+			path = LKPeerTravelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43AD47D720B520EA0062540D /* LKPeerTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43AD480420B520EA0062540D /* Build configuration list for PBXNativeTarget "LKPeerTravel" */;
+			buildPhases = (
+				43AD47D420B520EA0062540D /* Sources */,
+				43AD47D520B520EA0062540D /* Frameworks */,
+				43AD47D620B520EA0062540D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKPeerTravel;
+			productName = LKPeerTravel;
+			productReference = 43AD47D820B520EA0062540D /* LKPeerTravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43AD47EF20B520EA0062540D /* LKPeerTravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43AD480720B520EA0062540D /* Build configuration list for PBXNativeTarget "LKPeerTravelTests" */;
+			buildPhases = (
+				43AD47EC20B520EA0062540D /* Sources */,
+				43AD47ED20B520EA0062540D /* Frameworks */,
+				43AD47EE20B520EA0062540D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43AD47F220B520EA0062540D /* PBXTargetDependency */,
+			);
+			name = LKPeerTravelTests;
+			productName = LKPeerTravelTests;
+			productReference = 43AD47F020B520EA0062540D /* LKPeerTravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43AD47FA20B520EA0062540D /* LKPeerTravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43AD480A20B520EA0062540D /* Build configuration list for PBXNativeTarget "LKPeerTravelUITests" */;
+			buildPhases = (
+				43AD47F720B520EA0062540D /* Sources */,
+				43AD47F820B520EA0062540D /* Frameworks */,
+				43AD47F920B520EA0062540D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43AD47FD20B520EA0062540D /* PBXTargetDependency */,
+			);
+			name = LKPeerTravelUITests;
+			productName = LKPeerTravelUITests;
+			productReference = 43AD47FB20B520EA0062540D /* LKPeerTravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43AD47D020B520EA0062540D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = LK;
+				TargetAttributes = {
+					43AD47D720B520EA0062540D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					43AD47EF20B520EA0062540D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 43AD47D720B520EA0062540D;
+					};
+					43AD47FA20B520EA0062540D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 43AD47D720B520EA0062540D;
+					};
+				};
+			};
+			buildConfigurationList = 43AD47D320B520EA0062540D /* Build configuration list for PBXProject "LKPeerTravel" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43AD47CF20B520EA0062540D;
+			productRefGroup = 43AD47D920B520EA0062540D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43AD47D720B520EA0062540D /* LKPeerTravel */,
+				43AD47EF20B520EA0062540D /* LKPeerTravelTests */,
+				43AD47FA20B520EA0062540D /* LKPeerTravelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43AD47D620B520EA0062540D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AD47E820B520EA0062540D /* LaunchScreen.storyboard in Resources */,
+				43AD47E520B520EA0062540D /* Assets.xcassets in Resources */,
+				43AD47E320B520EA0062540D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AD47EE20B520EA0062540D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AD47F920B520EA0062540D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43AD47D420B520EA0062540D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AD47E020B520EA0062540D /* ViewController.m in Sources */,
+				43AD47EB20B520EA0062540D /* main.m in Sources */,
+				43AD47DD20B520EA0062540D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AD47EC20B520EA0062540D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AD47F520B520EA0062540D /* LKPeerTravelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AD47F720B520EA0062540D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AD480020B520EA0062540D /* LKPeerTravelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43AD47F220B520EA0062540D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43AD47D720B520EA0062540D /* LKPeerTravel */;
+			targetProxy = 43AD47F120B520EA0062540D /* PBXContainerItemProxy */;
+		};
+		43AD47FD20B520EA0062540D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43AD47D720B520EA0062540D /* LKPeerTravel */;
+			targetProxy = 43AD47FC20B520EA0062540D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43AD47E120B520EA0062540D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43AD47E220B520EA0062540D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43AD47E620B520EA0062540D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43AD47E720B520EA0062540D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43AD480220B520EA0062540D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43AD480320B520EA0062540D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43AD480520B520EA0062540D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LKPeerTravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongxing.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43AD480620B520EA0062540D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LKPeerTravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongxing.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43AD480820B520EA0062540D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LKPeerTravelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LK.LKPeerTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKPeerTravel.app/LKPeerTravel";
+			};
+			name = Debug;
+		};
+		43AD480920B520EA0062540D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LKPeerTravelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LK.LKPeerTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKPeerTravel.app/LKPeerTravel";
+			};
+			name = Release;
+		};
+		43AD480B20B520EA0062540D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LKPeerTravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LK.LKPeerTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LKPeerTravel;
+			};
+			name = Debug;
+		};
+		43AD480C20B520EA0062540D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LKPeerTravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LK.LKPeerTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LKPeerTravel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43AD47D320B520EA0062540D /* Build configuration list for PBXProject "LKPeerTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AD480220B520EA0062540D /* Debug */,
+				43AD480320B520EA0062540D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43AD480420B520EA0062540D /* Build configuration list for PBXNativeTarget "LKPeerTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AD480520B520EA0062540D /* Debug */,
+				43AD480620B520EA0062540D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43AD480720B520EA0062540D /* Build configuration list for PBXNativeTarget "LKPeerTravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AD480820B520EA0062540D /* Debug */,
+				43AD480920B520EA0062540D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43AD480A20B520EA0062540D /* Build configuration list for PBXNativeTarget "LKPeerTravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AD480B20B520EA0062540D /* Debug */,
+				43AD480C20B520EA0062540D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43AD47D020B520EA0062540D /* Project object */;
+}

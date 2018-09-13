@@ -1,0 +1,54 @@
+/* 
+  InfoPlist.strings
+  LKPeerTravel
+
+  Created by CK on 2018/6/14.
+  Copyright © 2018年 LK. All rights reserved.
+*/
+
+/**
+ *  注意事项
+ *  1、key不能有空格，
+ *  2、key定义格式为：界面_名称，如：LKLogin_title,
+ *  3、中英文的key必须一致,
+ *
+ **/
+
+CFBundleDisplayName = "Peer travel";
+
+/**
+ *  tabbar
+ **/
+LKTabbar_title_home = "Home";
+LKTabbar_title_track = "Track";
+LKTabbar_title_anwser = "Anwser";
+LKTabbar_title_mine = "Mine";
+
+/**
+ *  登录相关
+ **/
+LKLogin_title = "Phone Password Login";
+LKLogin_iphone_prompt = "Please enter your phone number";
+LKLogin_EnterCorrectIphoneNumber = "Please enter your correct phone number";
+LKLogin_password_prompt = "Please enter your password";
+LKLogin_code_prompt = "Please enter your verification code";
+LKLogin_login_title = "Login";
+LKLogin_foget_title = "Forget Password";
+LKLogin_code_title = "Code Login";
+LKLogin_password_title = "Password Login";
+LKLogin_getCode_title = "Get Code";
+LKLogin_thirdLogin_title = "Third Party Login";
+
+/**
+ *  设置
+ **/
+LKSetting_title = "Setting";
+LKSetting_about = "About us";
+LKSetting_feedback = "Feedbook";
+LKSetting_support = "Support us";
+LKSetting_share = "Share to friends";
+LKSetting_notication = "Notication";
+LKSetting_language = "Language";
+LKSetting_clearCache = "Clear Cache";
+LKSetting_logout = "Logout";
+

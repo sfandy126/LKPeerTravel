@@ -1,0 +1,54 @@
+/* 
+  InfoPlist.strings
+  LKPeerTravel
+
+  Created by CK on 2018/6/14.
+  Copyright © 2018年 LK. All rights reserved.
+*/
+
+/**
+ *  注意事项
+ *  1、key不能有空格，
+ *  2、key定义格式为：界面_名称，如：LKLogin_title,
+ *  3、中英文的key必须一致,
+ *
+ **/
+
+CFBundleDisplayName = "同行旅游";
+
+/**
+ *  tabbar
+ **/
+LKTabbar_title_home = "首页";
+LKTabbar_title_track = "足迹";
+LKTabbar_title_anwser = "问答";
+LKTabbar_title_mine = "我的";
+
+/**
+ *  登录相关
+ **/
+LKLogin_title = "手机密码登录";
+LKLogin_iphone_prompt = "请输入您的手机号码";
+LKLogin_EnterCorrectIphoneNumber = "请输入您的正确手机号码";
+LKLogin_password_prompt = "请输入您的密码";
+LKLogin_code_prompt = "请输入您的验证码";
+LKLogin_login_title = "登录";
+LKLogin_foget_title = "忘记密码";
+LKLogin_code_title = "验证码登录";
+LKLogin_password_title = "密码登录";
+LKLogin_getCode_title = "获取验证码";
+LKLogin_thirdLogin_title = "第三方登录";
+
+/**
+ *  设置
+ **/
+LKSetting_title = "设置";
+LKSetting_about = "关于我们";
+LKSetting_feedback = "意见反馈";
+LKSetting_support = "支持我们";
+LKSetting_share = "分享给朋友";
+LKSetting_notication = "通知";
+LKSetting_language = "多语言";
+LKSetting_clearCache = "清除缓存";
+LKSetting_logout = "退出账号";
+

@@ -1,0 +1,104 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Bugly (2.5.0)
+  - FSCalendar (2.7.9)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJExtension (3.0.15)
+  - MJRefresh (3.1.15.3)
+  - RealReachability (1.3.0):
+    - RealReachability/Connection (= 1.3.0)
+    - RealReachability/Ping (= 1.3.0)
+  - RealReachability/Connection (1.3.0)
+  - RealReachability/Ping (1.3.0)
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (4.2.3):
+    - SDWebImage/Core (= 4.2.3)
+  - SDWebImage/Core (4.2.3)
+  - TTTAttributedLabel (2.0.0)
+  - UAAppReviewManager (0.2.6)
+  - UMCAnalytics (5.5.0):
+    - UMCCommon
+  - UMCCommon (1.5.2)
+  - UMCSecurityPlugins (1.0.6)
+  - WechatOpenSDK (1.8.2)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AFNetworking (= 3.1.0)
+  - Bugly
+  - FSCalendar (= 2.7.9)
+  - Masonry
+  - MBProgressHUD
+  - MJExtension (= 3.0.15)
+  - MJRefresh
+  - RealReachability
+  - SDCycleScrollView
+  - SDWebImage (= 4.2.3)
+  - TTTAttributedLabel
+  - UAAppReviewManager
+  - UMCAnalytics
+  - UMCCommon
+  - UMCSecurityPlugins
+  - WechatOpenSDK (= 1.8.2)
+  - YYKit (= 1.0.9)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Bugly
+    - FSCalendar
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - RealReachability
+    - SDCycleScrollView
+    - SDWebImage
+    - TTTAttributedLabel
+    - UAAppReviewManager
+    - UMCAnalytics
+    - UMCCommon
+    - UMCSecurityPlugins
+    - WechatOpenSDK
+    - YYKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 3f039575db1b135a20699ad298713b26acec1528
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  RealReachability: eae9c58d2db52fadd8e1cba4b5d4c028454fbc47
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  UAAppReviewManager: 334bdb0085c3f80c7b696f33edc53667eda548e6
+  UMCAnalytics: 4667788559a72f2fa5077117d1b8802a3b6eb6bb
+  UMCCommon: 4392868ac47ff1b101663106bb114ba616fabbad
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+  WechatOpenSDK: 676feec516a11173eafd1fe64b10d27babf28701
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 2fd6bf9f0a1eb5307c8924b908c322a7559af901
+
+COCOAPODS: 1.5.3
